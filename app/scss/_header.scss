@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
 
-  // Hamburger Open Styles
+  // Hamburger Open Styles(FIX DOESN'T WORK)
   &.open {
     .header__toggle {
       > span:first-child {
@@ -31,7 +31,6 @@
 
   nav {
     position: relative;
-    background-color: $neutralA;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
   }
@@ -65,7 +64,6 @@
     width: calc(100% - 3rem);
     left: 50%;
     transform: translateX(-50%);
-    background: $white;
     margin-top: 1.5rem;
     padding: 1.625rem;
     border-radius: 5px;

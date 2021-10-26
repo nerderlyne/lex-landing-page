@@ -1,12 +1,21 @@
 .apps {
   &-cards {
     display: flex;
-
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
+    padding: 32px;
   }
 
   &-card {
+    display: flex;
+    flex-flow: column nowrap;
     flex: 0 1 24%;
+    border: 1px solid $secondaryA;
+    box-shadow: 2px 4px 16px $neutralA;
+    border-radius: 6.5px;
+    background-color: $neutralA;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
   }
 }
